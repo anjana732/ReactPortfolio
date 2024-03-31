@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import hero from './data/hero.json';
 
 function Home() {
   return (
@@ -7,10 +8,14 @@ function Home() {
         <div className="left">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, earum?</h1>
             
-            <button className="">Download Resume</button>
+            <button className="btn1" >Download Resume</button>
 
         </div>
-        <div className="right"></div>
+        <div className="right">
+            <div className="image">
+                <img src={`/assets/${hero.imgSrc}`} alt=""/>
+            </div>
+        </div>
     </div>
    </>
   )

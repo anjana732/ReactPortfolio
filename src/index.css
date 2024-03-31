@@ -19,3 +19,27 @@ a{
 .nav_bar .nav_item:hover{
   border-bottom: 3px solid rgb(233, 58, 102);
 }
+
+/*Home Section*/
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .right .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  height: 330px;
+  width: 330px;
+  border-radius: 50%;
+}
+
+.home .right .image img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
