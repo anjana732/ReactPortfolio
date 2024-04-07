@@ -3,7 +3,7 @@ import experience from './data/experience.json'
 function Experience() {
   return (
     <>
-    <div className="container ex">
+    <div className="container ex my-5">
       <h1>EXPERIENCE</h1>
       {
         experience.map((data) => {
@@ -15,9 +15,11 @@ function Experience() {
               </div>
               <div className="right">
                 <h2>{data.role}</h2>
-                <h4>{data.startDate} {data.endDate} {data.location}</h4>
-                <h5>{data.experiences[0]}</h5>
-                <h5>{data.experiences[1]}</h5>
+                <h4>
+                  <span style={{color: "yellowgreen"}}>{data.startDate}{data.endDate} </span> 
+                  <span style={{color: "yellow"}}> {data.location} </span></h4>
+                <h5 style={{color: "yellow"}}>{data.experiences[0]}</h5>
+                <h5 style={{color: "yellow"}}>{data.experiences[1]}</h5>
               </div>
             </div>
             </>
