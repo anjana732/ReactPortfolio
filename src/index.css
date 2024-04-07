@@ -87,3 +87,19 @@ a{
 
   }
 }
+
+/*Experience Section*/
+.ex{
+  width: 900px;
+  
+
+}
+.ex-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  width: 800px;
+  padding: 30px;
+}
